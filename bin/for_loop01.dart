@@ -6,7 +6,8 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+
+  return numbers.reduce((value, element) => value + element);
 }
 
 void main() {}

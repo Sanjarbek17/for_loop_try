@@ -8,7 +8,13 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+  int sum = 0;
+  for (int i = k; i < n; i++) {
+    if (i.isEven) {
+      sum += numbers[i];
+    }
+  }
+  return sum;
 }
 
 void main() {}

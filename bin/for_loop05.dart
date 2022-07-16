@@ -6,7 +6,13 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+  int sum = 0;
+  for (int i in numbers) {
+    if (i.isOdd) {
+      sum += i;
+    }
+  }
+  return sum;
 }
 
 void main() {}
