@@ -1,5 +1,5 @@
 # Welcome
-# LIST placeholder
+# For loop
 
 Automated grading of homework assignments and tests
 - fork this repository
