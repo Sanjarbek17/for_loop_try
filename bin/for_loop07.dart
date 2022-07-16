@@ -10,11 +10,13 @@ Return:
 */
   int x = 0;
   for (int i = k; i < n; i++) {
-    if (i.isEven) {
+    if (numbers[i].isEven) {
       x += numbers[i];
     }
   }
   return x;
 }
 
-void main() {}
+void main() {
+  print(func([1, 8, 2, 5, 3, 7, 4], 3, 7));
+}

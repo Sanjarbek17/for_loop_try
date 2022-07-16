@@ -10,11 +10,11 @@ Return:
 */
   int sum = 0;
   for (int i = k; i < n; i++) {
-    if (i.isEven) {
-      sum += numbers[i];
-    }
+    sum += numbers[i];
   }
   return sum;
 }
 
-void main() {}
+void main() {
+  print(func([6, 2, 8, 1, 6, 3, 7], 2, 4));
+}
