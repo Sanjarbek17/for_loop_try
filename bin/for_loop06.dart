@@ -8,6 +8,8 @@ Args:
 Return: 
   Int: answer
 */
+  print("test");
+
   int sum = 0;
   for (int i = k; i < n; i++) {
     sum += numbers[i];
