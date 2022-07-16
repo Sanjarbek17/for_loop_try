@@ -10,11 +10,13 @@ Return:
 */
   int x = 0;
   for (int i = k; i < n; i++) {
-    if (i.isOdd) {
+    if (numbers[i].isOdd) {
       x += numbers[i];
     }
   }
   return x;
 }
 
-void main() {}
+void main() {
+  print(func([7, 7, 2, 5, 1, 6], 2, 6));
+}
