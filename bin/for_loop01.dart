@@ -6,8 +6,11 @@ Args:
 Return: 
   Int: answer
 */
-
-  return numbers.reduce((value, element) => value + element);
+  int sum = 0;
+  for (int i = 0; i < numbers.length; i++) {
+    sum += numbers[i] as int;
+  }
+  return sum;
 }
 
 void main() {}
